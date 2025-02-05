@@ -28,7 +28,7 @@ def add(
     ctx: typer.Context,
     entity_tags: Annotated[Optional[List[str]], typer.Option("--tags", "-t", help="The entity tags to set custom data on")] = None,
     keys: Annotated[Optional[List[str]], typer.Option("--keys", "-k", help="The keys to set in custom data")] = None,
-    values: Annotated[Optional[List[str]], typer.Option("--values", "-v", "The values for the keys. If a value is JSON it will get parsed to an object.")] = None,
+    values: Annotated[Optional[List[str]], typer.Option("--values", "-v", help="The values for the keys. If a value is JSON it will get parsed to an object.")] = None,
 ):
     """
     Example of API call to bulk add custom data to entities
