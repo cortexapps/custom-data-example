@@ -11,3 +11,5 @@ This Python script demonstrates how to use the bulk custom data endpoint in the 
 * If you just want to run the script, `poetry install`, then `poetry run custom-data-example`
 
 <img width="1286" alt="image" src="https://github.com/user-attachments/assets/3b605434-f567-4d73-a8d0-22c10fc4962f" />
+
+![image](https://github.com/user-attachments/assets/2441e02b-1fd9-402f-88b8-18485fd5db9b)
